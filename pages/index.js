@@ -9,8 +9,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Brian Hinton's personal site</title>
       </Head>
     <GenerativeBg />
     <main className={styles.main}>
