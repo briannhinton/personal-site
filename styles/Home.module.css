@@ -9,7 +9,8 @@
 }
 
 .copy {
-  width: 63.4rem;
+  width: 100%;
+  max-width: 63.4rem;
   padding-top: var(--space-oct);
   padding-left: var(--space-double);
   padding-right: var(--space-double);
@@ -42,11 +43,12 @@
 .msg {
   background-color: var(--dark-color-bg);
   color: white;
-  width: 63.4rem;
+  width: 100%;
+  max-width: 63.4rem;
   padding-top: var(--space-triple);
   padding-left: var(--space-double);
   padding-right: var(--space-double);
-  padding-bottom: var(--space-oct)
+  padding-bottom: 8.8rem;
 }
 
 .msgtitle {
@@ -54,5 +56,26 @@
   font-family: var(--font-family-sans-condextrabold);
   text-transform: uppercase;
   line-height: 8.2rem;
-  margin-bottom: var(--space-default);
+  margin-bottom: var(--space-double);
+}
+
+.msgborder {
+  height: .1rem;
+  width: 5.6rem;
+  background-color: white;
+  margin-bottom: 2.4rem;
+  margin-top: 2.4rem;
+}
+
+.msglink, .msglinkfirst {
+  color: white;
+}
+
+.msglinkfirst {
+  margin-right: 2.4rem;
+}
+
+.msglink:hover, .msglinkfirst:hover {
+  color: white;
+  border-bottom: .1rem solid white;
 }

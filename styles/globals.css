@@ -112,6 +112,17 @@ body {
   background: var(--bg-gradient);
 }
 
+a {
+  text-decoration: none;
+  color: var(--dark-color);
+  font-family: var(--font-family-sans-md);
+  border-bottom: .1rem solid var(--base);
+}
+
+a:hover {
+  border-bottom: .1rem solid var(--dark-color);
+}
+
 .orb-canvas {
   position: fixed;
   top: 0;
