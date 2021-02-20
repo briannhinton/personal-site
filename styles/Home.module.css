@@ -53,7 +53,7 @@
 
 .msgtitle {
   font-size: 6.4rem;
-  font-family: var(--font-family-sans-condextrabold);
+  font-family: var(--font-family-sans-cond);
   text-transform: uppercase;
   line-height: 8.2rem;
   margin-bottom: var(--space-double);
