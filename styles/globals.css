@@ -55,7 +55,8 @@
 
 :root {
   /* Colors */
-  --dark-color: hsla(var(--hue), 100%, 9%, .70);
+  --dark-color: hsl(var(--hue), 100%, 9%);
+  --dark-color-bg: hsla(var(--hue), 100%, 9%, .60);
   --light-color: hsl(var(--hue), 95%, 98%);
   --base: hsl(var(--hue), 95%, 50%);
   --complimentary1: hsl(var(--hue-complimentary1), 95%, 50%);
@@ -73,6 +74,7 @@
   --space-half: 0.8rem;
   --space-default: 1.6rem;
   --space-double: 3.2rem;
+  --space-triple: 4.8rem;
   --space-quad: 6.4rem;
   --space-oct: 12.8rem;
 
@@ -100,11 +102,11 @@ html {
 }
 
 body {
-  max-width: 1920px;
-  min-height: 100vh;
+  height: 100%;
   display: grid;
   place-items: center;
   font-size: 1.6rem;
+  line-height: 3.0rem;
   font-family: var(--font-family-sans);
   color: var(--dark-color);
   background: var(--bg-gradient);
