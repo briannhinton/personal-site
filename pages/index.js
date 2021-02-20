@@ -1,65 +1,35 @@
 import Head from 'next/head'
+import dynamic from 'next/dynamic';
+
+const GenerativeBg = dynamic(() => import('../components/generativebg'), { ssr: false });
+
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+    <GenerativeBg />
+    <main className={styles.main}>
+      <section className={styles.copy}>
+      <h1 className={styles.title}>Brian Hinton</h1>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+      <p>Designer leading teams that are creating good experiences for e-commerce content management, and building accessible interfaces. I aim to make digital products usable for everyone.</p>
 
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
+      <p>I’m the design manager at WebstaurantStore, where I spend my time coordinating the development of our platform’s design systems, leading the accessibility charge, and helping my team grow individual and as a group.</p>
 
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
+      <p>On the side, I’m a host on the show Thunder Nerds, a livestream and podcast where we interview people from all aspects of technology to find out their stories, and to share their life lessons with others. I also run Friends of Figma, Tampa Bay where I help connect Figma users in the area and around the world.</p>
+      </section>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
-      </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
+      <footer className={styles.msg}>
+        <h2>Say Hello.</h2>
+        <p>I’m a big believer in being kind to each other, and I want to pay it forward with what knowledge I have—share with others what others have shared with me, and help lift others higher than I have achieved. I think it’s not only important, but as a veteran in this industry I want to set an example for others, and help the next generation of leaders. Send me a message using the method of your choice.</p>
+        <a>ask@mrbrianhinton.com</a>  <a>@mrbrianhinton</a>
       </footer>
+    </main>
     </div>
   )
 }
