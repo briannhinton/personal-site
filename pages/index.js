@@ -24,7 +24,7 @@ export default function Home() {
       </section>
       <footer className={styles.msg}>
         <h2 className={styles.msgtitle}>Say Hello.</h2>
-        <p>I’m a big believer in being kind to each other, and I want to pay it forward with what knowledge I have—share with others what others have shared with me, and help lift others higher. I think it’s not only important, but as a veteran in this industry I want to set an example for others, and help the next generation of leaders. If you have a question, or just want to talk send me a message using the method of your choice.</p>
+        <p>I’m a big believer in being kind to each other, and I want to pay it forward with what knowledge I have—share with others what others have shared with me, and help lift them higher. I think it’s not only important, but as a veteran in this industry I want to set an example for others, and help the next generation of leaders. If you have a question, or just want to talk send me a message using the method of your choice.</p>
         <div className={styles.msgborder}></div>
         <a href="mailto:ask@mrbrianhinton.com?subject=I want to say hi" target="_blank" className={styles.msglinkfirst}>ask@mrbrianhinton.com</a>  <a href="https://twitter.com/mrbrianhinton?lang=en" target="_blank" className={styles.msglink}>@mrbrianhinton</a>
       </footer>
