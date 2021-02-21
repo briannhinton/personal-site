@@ -74,6 +74,7 @@
 
 .msglinkfirst {
   margin-right: 2.4rem;
+  margin-bottom: var(--space-default);
 }
 
 .msglink:hover, .msglinkfirst:hover {
