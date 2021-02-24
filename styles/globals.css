@@ -58,6 +58,7 @@
   --dark-color: hsl(var(--hue), 100%, 9%);
   --dark-color-bg: hsla(var(--hue), 100%, 9%, .60);
   --light-color: hsl(var(--hue), 95%, 98%);
+  --light-color-bg: hsla(var(--hue), 95%, 98%, .60);
   --base: hsl(var(--hue), 95%, 50%);
   --complimentary1: hsl(var(--hue-complimentary1), 95%, 50%);
   --complimentary2: hsl(var(--hue-complimentary2), 95%, 50%);
@@ -121,6 +122,20 @@ a {
 
 a:hover {
   border-bottom: .1rem solid var(--dark-color);
+}
+
+.msglink, .msglinkfirst {
+  color: white;
+}
+
+.msglinkfirst {
+  margin-right: 2.4rem;
+  margin-bottom: var(--space-default);
+}
+
+.msglink:hover, .msglinkfirst:hover {
+  color: white;
+  border-bottom: .1rem solid white;
 }
 
 .orb-canvas {
