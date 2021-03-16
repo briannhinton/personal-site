@@ -103,7 +103,7 @@ html {
 }
 
 body {
-  height: 100vh;
+  height: 100%;
   display: grid;
   place-items: center;
   font-size: 1.6rem;
