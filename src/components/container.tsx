@@ -1,10 +1,10 @@
-import { ReactNode, FunctionComponent } from 'react'
+import React from 'react'
 
 type Props = {
-  children?: ReactNode
+  children?: any
 }
 
-const Container: FunctionComponent = ({ children }: Props) => {
+const Container = ({ children }: Props) => {
   return <div>{children}</div>
 }
 
