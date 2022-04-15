@@ -147,20 +147,20 @@ export default function Home() {
           </p>
           <FooterBorder></FooterBorder>
           <a
-            href="mailto:ask@mrbrianhinton.com?subject=I want to say hi"
+            href="mailto:briannhinton@gmail.com?subject=I want to say hi"
             target="_blank"
             className="msglinkfirst"
             rel="noreferrer"
           >
-            ask@mrbrianhinton.com
+            briannhinton@gmail.com
           </a>{' '}
           <a
-            href="https://twitter.com/mrbrianhinton?lang=en"
+            href="https://twitter.com/realtinypenguin?lang=en"
             target="_blank"
             className="msglink"
             rel="noreferrer"
           >
-            @mrbrianhinton
+            @RealTinyPenguin
           </a>
         </Footer>
       </Main>
