@@ -91,6 +91,42 @@
 
 }
 
+--base-size: clamp(1rem, 0.875vw, 1.375rem);
+
+/* Font Size */
+--fs-xxs: calc(var(--fs-md) * 0.5);
+--fs-x5: calc(var(--fs-md) * 0.75);
+--fs-sm: calc(var(--fs-md) * 0.875);
+--fs-md: var(--base-size);
+--fs-1g: calc(var(--fs-md)
+* 1.25);
+--fs-xl:calc(var(--fs-md)
+* 1.5);
+--fs-xxl: calc(var(--fs-md) * 1.75);
+--f5-xxxl: calc(var(--fs-ma) * 2);
+--f5-XxxXl: calc(var(--fs-md) * 2.25);
+
+/* Spacing */
+--sp-xxs: calc(var(--sp-md) * 0.25);
+--sp-xs: cal(var(--sp-md) * 0.5);
+--sp-sm: calc(var(--sp-md) * 0.75);
+--sp-md: var (--base-size);
+--sp-lg: calc(var( --sp-md)
+* 1.5);
+--sp-xl:calc(var(--sp-md)
+* 2);
+--sp-xxl: calc(var(--sp-md) * 2.5);
+--sp-xxxl: calc(var(--sp-md) * 3);
+--sp-xxxxl: calc(var(--sp-md) *
+4);
+
+/* Border radius */
+--br-sm: calc(var(--sp-Xs) / 2);
+--br-md: var(--sp-xs);
+--br-lg: var(--sp-sm);
+--br-xl: var(--sp-ma);
+
+
 html {
   box-sizing: border-box;
   font-size: 62.5%;
